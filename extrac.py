@@ -75,14 +75,3 @@ def extract_all(folder_path, dest_folder):
 
             except Exception as e:
                 print(f"Error con {file}: {e}")
-
-
-if __name__ == "__main__":
-    
-    carpeta_origen = r"C:\Users\66439464\Desktop\FCC Febrero"
-    
-    carpeta_destino = r"C:\Users\66439464\OneDrive - El Corte Inglés, S.A\DIs_descargados\negocios_practicos"
-
-    extract_all(carpeta_origen, carpeta_destino)
-
-    print("✅ Proceso completado")
